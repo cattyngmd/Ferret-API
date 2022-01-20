@@ -1,8 +1,4 @@
----
-description: Ferret Lua API documentation.
----
-
-# 🧀 Home
+# Ferret Lua API
 
 ## Loading Lua scripts <a href="#loading-lua-scripts" id="loading-lua-scripts"></a>
 
