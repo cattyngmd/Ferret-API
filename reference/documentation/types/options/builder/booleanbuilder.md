@@ -2,7 +2,7 @@
 
 ## Methods
 
-### new(value): [_BooleanBuilder_](booleanbuilder.md)__
+### new(value): _[_BooleanBuilder_](booleanbuilder.md)_
 
 Constructor. Returns new BooleanBuilder.
 
@@ -10,7 +10,7 @@ Constructor. Returns new BooleanBuilder.
 | ------- | ----- |
 | boolean | value |
 
-### build(feature): [_BooleanOption_](../booleanoption.md)__
+### build(feature): _[_BooleanOption_](../booleanoption.md)_
 
 Builds option and register itself in Option List.
 
