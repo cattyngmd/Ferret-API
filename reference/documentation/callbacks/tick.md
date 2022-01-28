@@ -16,7 +16,7 @@ or
 ```lua
 -- Simple step
 this:registerCallback("events", function(event)
-    if(event:getName() == "tick")
+    if(event:getName() == "tick") then
         mc.player.stepHeight = 2
     end
 end)

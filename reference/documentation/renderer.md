@@ -58,12 +58,12 @@ renderer:textWithShadow(event:getStack(), "Ferret", vec2d(2, 2), color(255, 255,
 
 ### rect(stack, from, to, color)
 
-| Type         | name  |
-| ------------ | ----- |
-| MatrixStackr | stack |
-| Vec2d        | from  |
-| Vec2d        | to    |
-| Color        | color |
+| Type        | name  |
+| ----------- | ----- |
+| MatrixStack | stack |
+| Vec2d       | from  |
+| Vec2d       | to    |
+| Color       | color |
 
 ```lua
 renderer:rect(event:getStack(), vec2d(2, 2), vec2d(12, 12), color(255, 255, 255, 255))
@@ -71,12 +71,12 @@ renderer:rect(event:getStack(), vec2d(2, 2), vec2d(12, 12), color(255, 255, 255,
 
 ### rectFilled(stack, from, to, color)
 
-| Type         | name  |
-| ------------ | ----- |
-| MatrixStackr | stack |
-| Vec2d        | from  |
-| Vec2d        | to    |
-| Color        | color |
+| Type        | name  |
+| ----------- | ----- |
+| MatrixStack | stack |
+| Vec2d       | from  |
+| Vec2d       | to    |
+| Color       | color |
 
 ```lua
 renderer:rectFilled(event:getStack(), vec2d(2, 2), vec2d(12, 12), color(255, 255, 255, 150))
@@ -93,17 +93,17 @@ renderer:rectFilled(event:getStack(), vec2d(2, 2), vec2d(12, 12), color(255, 255
 | Color        | color2 |
 
 ```lua
-renderer:rectFilled(event:getStack(), vec2d(2, 2), vec2d(12, 12), color(255, 0, 0, 150), color(0, 0, 255, 150))
+renderer:rectFilledFade(event:getStack(), vec2d(2, 2), vec2d(12, 12), color(255, 0, 0, 150), color(0, 0, 255, 150))
 ```
 
 ### line(stack, from, to, color)
 
-| Type         | name  |
-| ------------ | ----- |
-| MatrixStackr | stack |
-| Vec2d        | from  |
-| Vec2d        | to    |
-| Color        | color |
+| Type        | name  |
+| ----------- | ----- |
+| MatrixStack | stack |
+| Vec2d       | from  |
+| Vec2d       | to    |
+| Color       | color |
 
 ```
 renderer:line(event:getStack(), vec2d(2, 2), vec2d(12, 12), color(255, 255, 255, 150))
