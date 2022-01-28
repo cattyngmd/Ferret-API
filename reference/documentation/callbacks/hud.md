@@ -23,7 +23,7 @@ Callback for render stuff in your hud.
 ```lua
 -- simple watermark
 this:registerCallback("hud", function(hud)
-    renderer:text(hud:stack(), "Ferret", vec2d(2, 2), color(255, 255, 255, 255))
+    renderer:text(hud:getStack(), "Ferret", vec2d(2, 2), color(255, 255, 255, 255))
 end)
 ```
 

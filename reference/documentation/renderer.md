@@ -14,7 +14,7 @@ description: renderer table
 | Color       | color |
 
 ```lua
-renderer:text(event:stack(), textOf("Ferret"), vec2d(2, 2), color(255, 255, 255, 255))
+renderer:text(event:getStack(), textOf("Ferret"), vec2d(2, 2), color(255, 255, 255, 255))
 ```
 
 ### text(stack, text, vec2d, color)
@@ -27,7 +27,7 @@ renderer:text(event:stack(), textOf("Ferret"), vec2d(2, 2), color(255, 255, 255,
 | Color       | color |
 
 ```lua
-renderer:text(event:stack(), "Ferret", vec2d(2, 2), color(255, 255, 255, 255))
+renderer:text(event:getStack(), "Ferret", vec2d(2, 2), color(255, 255, 255, 255))
 ```
 
 ### textWithShadow(stack, text, vec2d, color)
@@ -40,7 +40,7 @@ renderer:text(event:stack(), "Ferret", vec2d(2, 2), color(255, 255, 255, 255))
 | Color       | color |
 
 ```lua
-renderer:textWithShadow(event:stack(), textOf("Ferret"), vec2d(2, 2), color(255, 255, 255, 255))
+renderer:textWithShadow(event:getStack(), textOf("Ferret"), vec2d(2, 2), color(255, 255, 255, 255))
 ```
 
 ### textWithShadow(stack, text, vec2d, color)
@@ -53,7 +53,7 @@ renderer:textWithShadow(event:stack(), textOf("Ferret"), vec2d(2, 2), color(255,
 | Color       | color |
 
 ```lua
-renderer:textWithShadow(event:stack(), "Ferret", vec2d(2, 2), color(255, 255, 255, 255))
+renderer:textWithShadow(event:getStack(), "Ferret", vec2d(2, 2), color(255, 255, 255, 255))
 ```
 
 ### rect(stack, from, to, color)
@@ -66,7 +66,7 @@ renderer:textWithShadow(event:stack(), "Ferret", vec2d(2, 2), color(255, 255, 25
 | Color        | color |
 
 ```lua
-renderer:rect(event:stack(), vec2d(2, 2), vec2d(12, 12), color(255, 255, 255, 255))
+renderer:rect(event:getStack(), vec2d(2, 2), vec2d(12, 12), color(255, 255, 255, 255))
 ```
 
 ### rectFilled(stack, from, to, color)
@@ -79,7 +79,7 @@ renderer:rect(event:stack(), vec2d(2, 2), vec2d(12, 12), color(255, 255, 255, 25
 | Color        | color |
 
 ```lua
-renderer:rectFilled(event:stack(), vec2d(2, 2), vec2d(12, 12), color(255, 255, 255, 150))
+renderer:rectFilled(event:getStack(), vec2d(2, 2), vec2d(12, 12), color(255, 255, 255, 150))
 ```
 
 ### rectFilledFade(stack, from, to, color1, color2)
@@ -93,7 +93,7 @@ renderer:rectFilled(event:stack(), vec2d(2, 2), vec2d(12, 12), color(255, 255, 2
 | Color        | color2 |
 
 ```lua
-renderer:rectFilled(event:stack(), vec2d(2, 2), vec2d(12, 12), color(255, 0, 0, 150), color(0, 0, 255, 150))
+renderer:rectFilled(event:getStack(), vec2d(2, 2), vec2d(12, 12), color(255, 0, 0, 150), color(0, 0, 255, 150))
 ```
 
 ### line(stack, from, to, color)
@@ -106,7 +106,7 @@ renderer:rectFilled(event:stack(), vec2d(2, 2), vec2d(12, 12), color(255, 0, 0, 
 | Color        | color |
 
 ```
-renderer:line(event:stack(), vec2d(2, 2), vec2d(12, 12), color(255, 255, 255, 150))
+renderer:line(event:getStack(), vec2d(2, 2), vec2d(12, 12), color(255, 255, 255, 150))
 ```
 
 ### width(text): _int_
