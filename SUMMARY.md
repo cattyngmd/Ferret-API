@@ -13,6 +13,7 @@
       * [Packet Event](reference/documentation/callbacks/events/packet-event/README.md)
         * [Send](reference/documentation/callbacks/events/packet-event/send.md)
         * [Receive](reference/documentation/callbacks/events/packet-event/receive.md)
+      * [Player Move Event](reference/documentation/callbacks/events/player-move-event.md)
   * [Globals](reference/documentation/globals.md)
   * [Renderer](reference/documentation/renderer.md)
   * [Types](reference/documentation/types/README.md)
