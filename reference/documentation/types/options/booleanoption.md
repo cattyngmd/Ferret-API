@@ -29,12 +29,12 @@ print(option:getValue()) -- false
 
 Parses given string value to boolean and changes current value of option.
 
-| Type                                                                            | name  |
-| ------------------------------------------------------------------------------- | ----- |
-| stringlocal option = BooleanBuilder(true):name("Boolean Option"):build(feature) | value |
+| Type   | name  |
+| ------ | ----- |
+| string | value |
 
 ```lua
 local option = BooleanBuilder(true):name("Boolean Option"):build(feature)
-option:setValue("false")
+option:setStringValue("false")
 print(option:getValue()) -- false
 ```
