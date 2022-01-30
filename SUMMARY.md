@@ -21,6 +21,7 @@
       * [Builder](reference/documentation/types/options/builder/README.md)
         * [BooleanBuilder](reference/documentation/types/options/builder/booleanbuilder.md)
       * [BooleanOption](reference/documentation/types/options/booleanoption.md)
+    * [GuiBuilder](reference/documentation/types/guibuilder.md)
     * [ModuleLua](reference/documentation/types/modulelua.md)
     * [Color](reference/documentation/types/color.md)
     * [Vec3d](reference/documentation/types/vec3d.md)
