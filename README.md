@@ -1,4 +1,4 @@
-# 🧀 Home
+# 🧀 Home ![](https://img.shields.io/tokei/lines/github/cattyngmd/Ferret-API)
 
 ## Loading Lua scripts <a href="#loading-lua-scripts" id="loading-lua-scripts"></a>
 
