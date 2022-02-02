@@ -9,6 +9,7 @@
     * [Tick](reference/documentation/callbacks/tick.md)
     * [Events](reference/documentation/callbacks/events/README.md)
       * [Tick Event](reference/documentation/callbacks/events/tick-event.md)
+      * [Render 3D Event](reference/documentation/callbacks/events/render-3d-event.md)
       * [Render 2D Event](reference/documentation/callbacks/events/render-2d-event.md)
       * [Packet Event](reference/documentation/callbacks/events/packet-event/README.md)
         * [Send](reference/documentation/callbacks/events/packet-event/send.md)

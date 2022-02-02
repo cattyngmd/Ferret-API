@@ -69,3 +69,16 @@ Sets the float value of tickLength multiplier.
 ```lua
 globals:setTickMultiplier(2.0)
 ```
+
+### getEntities(): _List\<Entit_y_>_
+
+Returns list of entities in the world.
+
+```lua
+local entities = globals:getEntities()
+
+-- in loop
+for i = 0, entities:size() - 1 do
+    print(entities:get(i):getEntityName())
+end
+```

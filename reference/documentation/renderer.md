@@ -129,3 +129,131 @@ local textWidth = renderer:width("oi oi") --> 20
 local textWidth = renderer:width(textOf("oi oi")) --> 20
 ```
 
+### drawBoxFilled(stack, box, color)
+
+| Type        | name  |
+| ----------- | ----- |
+| MatrixStack | stack |
+| Box         | box   |
+| Color       | color |
+
+```lua
+renderer:drawBoxFilled(event:getStack(), box, color(255, 255, 255, 255))
+```
+
+### drawBoxFilled(stack, pos, color)
+
+| Type        | name  |
+| ----------- | ----- |
+| MatrixStack | stack |
+| BlockPos    | pos   |
+| Color       | color |
+
+```lua
+renderer:drawBoxFilled(event:getStack(), pos, color(255, 255, 255, 255))
+```
+
+### drawBoxFilled(stack, vec3d, color)
+
+| Type        | name  |
+| ----------- | ----- |
+| MatrixStack | stack |
+| Vec3d       | vec3d |
+| Color       | color |
+
+```lua
+renderer:drawBoxFilled(event:getStack(), vec3d(0, 64, 0), color(255, 255, 255, 255))
+```
+
+### drawBox(stack, box, color, lineWidth)
+
+| Type        | name      |
+| ----------- | --------- |
+| MatrixStack | stack     |
+| Box         | box       |
+| Color       | color     |
+| double      | lineWidth |
+
+```lua
+renderer:drawBox(event:getStack(), box, color(255, 255, 255, 255), 1.0)
+```
+
+### drawBox(stack, pos, color, lineWidth)
+
+| Type        | name      |
+| ----------- | --------- |
+| MatrixStack | stack     |
+| BlockPos    | pos       |
+| Color       | color     |
+| double      | lineWidth |
+
+```lua
+renderer:drawBox(event:getStack(), pos, color(255, 255, 255, 255), 1.0)
+```
+
+### drawBox(stack, vec3d, color, lineWidth)
+
+| Type        | name      |
+| ----------- | --------- |
+| MatrixStack | stack     |
+| Vec3d       | vec3d     |
+| Color       | color     |
+| double      | lineWidth |
+
+```lua
+renderer:drawBox(event:getStack(), vec3d(0, 64, 0), color(255, 255, 255, 255), 1.0)
+```
+
+### drawSemi2dRect(pos, offset1, offset2, scale, color)
+
+| Type   | name    |
+| ------ | ------- |
+| Vec3d  | pos     |
+| Vec2d  | offset1 |
+| Vec2d  | offset2 |
+| double | scale   |
+| Color  | color   |
+
+```lua
+renderer:drawSemi2dRect(vec3d(0, 64, 0), vec2d(0, 0), vec2d(20, 5), 1.0, color(255, 255, 255, 255))
+```
+
+### drawSemi2dText(text, pos, offset, scale, color, shadow)
+
+| Type    | name    |
+| ------- | ------- |
+| string  | text    |
+| Vec3d   | pos     |
+| Vec2d   | offset1 |
+| Vec2d   | offset2 |
+| double  | scale   |
+| Color   | color   |
+| boolean | shadow  |
+
+```lua
+renderer:drawSemi2dText("Hello", vec3d(0, 64, 0), vec2d(0, 0), vec2d(0, 0), 1.0, color(255, 255, 255, 255), true)
+```
+
+### setup()
+
+```
+renderer:setup()
+```
+
+### setup3D()
+
+```
+renderer:setup3D()
+```
+
+### clean()
+
+```
+renderer:clean()
+```
+
+### clean3D()
+
+```
+renderer:clean3D()
+```

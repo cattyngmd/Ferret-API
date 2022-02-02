@@ -30,9 +30,9 @@ local gui = GuiBuilder.new("Simple Gui"):isPauseScreen(false)
 
 Creates callback for `render` method in Screen class.
 
-| Type     | name     |   |
-| -------- | -------- | - |
-| function | callback |   |
+| Type       | name     |   |
+| ---------- | -------- | - |
+| LuaClosure | callback |   |
 
 ```lua
 local gui = GuiBuilder.new("Simple Gui"):setRender(function(stack, cursor)
@@ -44,9 +44,9 @@ end)
 
 Creates callback for `keyPressed` method in Screen class.
 
-| Type     | name     |   |
-| -------- | -------- | - |
-| function | callback |   |
+| Type       | name     |   |
+| ---------- | -------- | - |
+| LuaClosure | callback |   |
 
 ```lua
 local gui = GuiBuilder.new("Simple Gui"):setKeyPressed(function(key, scan, modifiers)
@@ -58,9 +58,9 @@ end)
 
 Creates callback for `keyReleased` method in Screen class.
 
-| Type     | name     |   |
-| -------- | -------- | - |
-| function | callback |   |
+| Type       | name     |   |
+| ---------- | -------- | - |
+| LuaClosure | callback |   |
 
 ```lua
 local gui = GuiBuilder.new("Simple Gui"):setKeyReleased(function(key, scan, modifiers)
@@ -72,9 +72,9 @@ end)
 
 Creates callback for `mouseClicked` method in Screen class
 
-| Type     | name     |   |
-| -------- | -------- | - |
-| function | callback |   |
+| Type       | name     |   |
+| ---------- | -------- | - |
+| LuaClosure | callback |   |
 
 ```lua
 local gui = GuiBuilder.new("Simple Gui"):setMouseClicked(function(cursor, key)
@@ -86,9 +86,9 @@ end)
 
 Creates callback for `mouseReleased` method in Screen class
 
-| Type     | name     |   |
-| -------- | -------- | - |
-| function | callback |   |
+| Type       | name     |   |
+| ---------- | -------- | - |
+| LuaClosure | callback |   |
 
 ```lua
 local gui = GuiBuilder.new("Simple Gui"):setMouseReleased(function(cursor, key)
@@ -96,13 +96,27 @@ local gui = GuiBuilder.new("Simple Gui"):setMouseReleased(function(cursor, key)
 end)
 ```
 
+### setMouseScrolled(callback): [_GuiBuilder_](guibuilder.md)__
+
+Creates callback for `mouseScrolled` method in Screen class
+
+| Type       | name     |   |
+| ---------- | -------- | - |
+| LuaClosure | callback |   |
+
+```lua
+local gui = GuiBuilder.new("Simple Gui"):setMouseScrolled(function(cursor, amount)
+    print(amount > 0 and "up" or "down")
+end)
+```
+
 ### setCharTyped(callback): [_GuiBuilder_](guibuilder.md)__
 
 Creates callback for `charTyped` method in Screen class
 
-| Type     | name     |   |
-| -------- | -------- | - |
-| function | callback |   |
+| Type       | name     |   |
+| ---------- | -------- | - |
+| LuaClosure | callback |   |
 
 ```lua
 local text = ""

@@ -48,6 +48,38 @@ module:body(function()
 end)
 ```
 
+### onEnable(function)
+
+Overrides onEnable method.
+
+| Type       | name     |
+| ---------- | -------- |
+| LuaClosure | function |
+
+```lua
+local module = Module.new("Test", "", "PLAYER", this)
+
+module:onEnable(function()
+    print(module:getName() .. " enabled!")
+end)
+```
+
+### onDisable(function)
+
+Overrides onDisable method.
+
+| Type       | name     |
+| ---------- | -------- |
+| LuaClosure | function |
+
+```lua
+local module = Module.new("Test", "", "PLAYER", this)
+
+module:onEnable(function()
+    print(module:getName() .. " enabled!")
+end)
+```
+
 ### registerCallback(name, function)
 
 Creates new callback for Module.
