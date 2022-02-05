@@ -19,6 +19,7 @@
       * [Player Move Event](reference/documentation/callbacks/events/player-move-event.md)
   * [Globals](reference/documentation/globals.md)
   * [Renderer](reference/documentation/renderer.md)
+  * [Interactions](reference/documentation/interactions.md)
   * [Types](reference/documentation/types/README.md)
     * [Option](reference/documentation/types/options/README.md)
       * [Builder](reference/documentation/types/options/builder/README.md)
