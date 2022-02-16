@@ -21,6 +21,7 @@
   * [Renderer](reference/documentation/renderer.md)
   * [Interactions](reference/documentation/interactions.md)
   * [Files](reference/documentation/files.md)
+  * [Mixins](reference/documentation/mixins.md)
   * [Types](reference/documentation/types/README.md)
     * [Option](reference/documentation/types/options/README.md)
       * [Builder](reference/documentation/types/options/builder/README.md)
