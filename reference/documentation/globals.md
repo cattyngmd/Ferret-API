@@ -1,7 +1,3 @@
----
-description: globals table
----
-
 # Globals
 
 ### getFps(): _int_
@@ -81,4 +77,14 @@ local entities = globals:getEntities()
 for i = 0, entities:size() - 1 do
     print(entities:get(i):getEntityName())
 end
+```
+
+### instanceOf(object, className): _boolean_
+
+Return is object an instance of the specified type.
+
+```lua
+print(globals:instanceOf(mc.player, "net.minecraft.entity.Entity")) -- true
+
+print(globals:instanceOf(mc.player, "net.minecraft.block.Block")) -- false
 ```
