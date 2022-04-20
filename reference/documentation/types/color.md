@@ -1,7 +1,3 @@
----
-description: Java awt type
----
-
 # Color
 
 ## Methods

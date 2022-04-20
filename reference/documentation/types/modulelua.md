@@ -1,7 +1,3 @@
----
-description: ModuleLua class
----
-
 # ModuleLua
 
 ## Methods

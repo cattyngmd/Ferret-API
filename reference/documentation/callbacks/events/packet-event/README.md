@@ -1,7 +1,3 @@
----
-description: Packet Event
----
-
 # Packet Event
 
 ### Fields

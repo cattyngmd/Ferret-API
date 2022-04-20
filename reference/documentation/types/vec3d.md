@@ -1,7 +1,3 @@
----
-description: Minecraft type
----
-
 # Vec3d
 
 ## Methods

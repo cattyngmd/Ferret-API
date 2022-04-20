@@ -1,4 +1,4 @@
-# Globals
+# globals
 
 ### getFps(): _int_
 
@@ -14,7 +14,7 @@ Returns delta time between frames.
 local frametime = globals:getFrametime() -- getFrametime equals 1.0 / getFps
 ```
 
-### getPosition(): [_Vec3d_](types/vec3d.md)__
+### getPosition(): [_Vec3d_](../types/vec3d.md)__
 
 Returns current player's position.
 

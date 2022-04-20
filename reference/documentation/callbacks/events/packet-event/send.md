@@ -1,7 +1,3 @@
----
-description: Packet Send Event
----
-
 # Send
 
 ## `packet_send`

@@ -1,8 +1,4 @@
----
-description: renderer table
----
-
-# Renderer
+# renderer
 
 ### text(stack, text, vec2d, color)
 

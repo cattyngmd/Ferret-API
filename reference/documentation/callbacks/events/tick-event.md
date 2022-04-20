@@ -1,7 +1,3 @@
----
-description: Tick Event
----
-
 # Tick Event
 
 ## `Tick Event`

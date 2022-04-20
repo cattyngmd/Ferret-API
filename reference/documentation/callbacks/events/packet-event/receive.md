@@ -1,7 +1,3 @@
----
-description: Packet Receive Event
----
-
 # Receive
 
 ## `packet_receive`
