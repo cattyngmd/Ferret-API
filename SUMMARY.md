@@ -18,6 +18,7 @@
         * [Receive](reference/documentation/callbacks/events/packet-event/receive.md)
       * [Player Move Event](reference/documentation/callbacks/events/player-move-event.md)
   * [Lua Libraries](reference/documentation/lua-libraries/README.md)
+    * [colors](reference/documentation/lua-libraries/colors.md)
     * [files](reference/documentation/lua-libraries/files.md)
     * [interactions](reference/documentation/lua-libraries/interactions.md)
     * [renderer](reference/documentation/lua-libraries/renderer.md)
