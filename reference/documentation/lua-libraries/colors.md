@@ -47,7 +47,7 @@ colors.rgb(120.0, 1.0, 1.0) -- green
 
 ### fade(color1, color2, progress): _color_
 
-Mixes two color.
+Mixes two colors.
 
 | Type  | name     |
 | ----- | -------- |
