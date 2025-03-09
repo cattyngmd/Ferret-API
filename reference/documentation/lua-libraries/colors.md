@@ -71,7 +71,7 @@ Creates a new rainbow color object.
 | int   | alpha      |
 
 ```lua
-color.rainbow(0, 1.0, 1.0, 255)
+colors.rainbow(0, 1.0, 1.0, 255)
 ```
 
 ### pulse(color1, color2, time, delay): _color_
@@ -86,5 +86,5 @@ Creates a new pulse color object.
 | int   | delay  |
 
 ```lua
-color.pulse(color(255, 0, 0, 255), color(127, 0, 0, 255), 1000, 0)
+colors.pulse(color(255, 0, 0, 255), color(127, 0, 0, 255), 1000, 0)
 ```
